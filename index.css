@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(235, 233, 233);
+    margin:0;
+    font-family: arial;
+    font-size: 15px;
+}
+
+#barraPesquisa{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+#search-input{
+    font-size: 15px;;
+    border: none;
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    top:10px;
+    left:45px;
+}
+
+#iconSearch{
+    position: absolute;
+    top: 12px;
+    left:10px;
+    width:26px
+}
+
+#add{
+    position: absolute;
+    top: 12px;
+    right:10px;
+    width:26px
+}
+
+#princpal{
+    height: 100%;
+    width: 100%;
+}
+
+.contatos{
+    margin-left:20px;
+    background-color: white;
+    width: 96%;
+    height: 70px;
+    margin-top: 20px;
+    padding-block: 5px;
+    padding-left:20px; 
+    border-radius: 5px;
+    display:flex;
+}
+
+.divNomes{
+    width: 300px;
+}
+
+p{
+    margin:0;
+    margin-left: 10px;
+}
+
+#cont{
+    margin-block: 10px;
+}
+
+.edit{
+    margin-left: 76%;
+    width: 26px;
+    top:30px;
+}
+
+.cancel{
+    margin-left: 15px;
+    width: 26px;
+    top:30px;
+}
+
+#divAdd{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 700px;
+}
+
+#name, #handle{
+    position: absolute;
+    border:none;
+    height: 30px;
+    width: 400px;
+    left:40%;
+    background-color: rgb(235, 233, 233);
+    border-bottom: solid 1px rgb(166, 164, 164);
+}
+
+
+#name{
+    top:30px;  
+}
+
+
+#handle{
+    top:70px;    
+}
+
+#buttonAdd{
+    position: absolute;
+    background-color:rgb(197, 197, 197);
+    width: 300px;
+    left: 43%;
+    top: 150px;
+    height: 30px;
+    border: none;
+}
